@@ -1,0 +1,18 @@
+
+.wrapper
+{
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+	grid-gap: 10vh;
+	grid-row:10px 40% 40% 10%;
+	height: 100%;
+}
+
+
+.grid-a{background: blue;grid-column: 1/2}
+.grid-b{background: red;}
+.grid-c{background: black;}
+.grid-d{background: yellow;}
+.grid-header{background: green;}
+.grid-footer{background: pink;}
+
