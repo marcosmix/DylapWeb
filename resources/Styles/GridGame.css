@@ -36,7 +36,7 @@
 {
 	
 	background: red;
-	width: 80%;
+	width: 50%;
 	height: 80%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -44,10 +44,12 @@
 }
 
 #button1 
-{background-color: var(--Amarillo);}
+{background-color: var(--Amarillo);
+	margin-left:50%;}
 #button2 
-{background-color: var(--Rojo:);}
+{background-color: var(--Rojo:);margin-right:50%;}
 #button3 
-{background-color: var(--Verde);}
+{background-color: var(--Verde);margin-left:50%;}
 #button4 
-{background-color: var(--Celeste);}
+{background-color: var(--Celeste);margin-right:50%;}
+
