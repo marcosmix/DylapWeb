@@ -14,6 +14,15 @@ function Toque(b)
 		case "gatito":
 			url_image='url(../images/gato.jpg)';
 			break;
+		case "perrito":
+			url_image='url(../images/perro.jpg)';
+			break;
+		case "caballito":
+			url_image='url(../images/caballo.jpg)';
+			break;
+		case "vaquita":
+			url_image='url(../images/vaca.jpg)';
+			break;
 		default:
 			// statements_def
 			break;

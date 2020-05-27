@@ -16,8 +16,8 @@
 
 
 
-.grid-header{background: green;}
-.grid-footer{background: pink;}
+.grid-header{background: var(--Color2:);}
+.grid-footer{background: var(--Color2:);}
 
 
 .row
@@ -38,14 +38,16 @@
 	background: red;
 	width: 80%;
 	height: 80%;
-	
-}
-
-#button1
-{
-	background-color: var(--Amarillo);
-	background-image: none;
 	background-repeat: no-repeat;
 	background-size: cover;
 	
 }
+
+#button1 
+{background-color: var(--Amarillo);}
+#button2 
+{background-color: var(--Rojo:);}
+#button3 
+{background-color: var(--Verde);}
+#button4 
+{background-color: var(--Celeste);}
